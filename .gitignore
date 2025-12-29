@@ -1,0 +1,32 @@
+# build outputs
+bin/
+obj/
+
+# user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# logs
+*.log
+
+# Visual Studio folders
+.vs/
+.ReSharper*/
+*_ReSharper*/
+*.DotSettings
+
+# publish outputs
+/wwwroot/dist/
+
+# environment + secrets
+appsettings.Development.json
+appsettings.Local.json
+
+# do not commit local secrets
+appsettings.json
+
+# Rider / JetBrains
+.idea/
+*.iml
